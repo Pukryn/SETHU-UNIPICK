@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>UniPick</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e88210b55c.js"></script>
+  </head>
+  <body>
+    <!-- navigation  -->
+     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="UniPick.jpg"
+            width="30"
+            height="30"
+            class="d-inline-block align-top mr-2"
+            alt=""
+          />
+          UniPick</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse float-right"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CAT and MAT.html">CAT and MAT</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                GMAT
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="gmatuk.html">UK</a>
+                <a class="dropdown-item" href="gmatusa.html">USA</a>
+                <a class="dropdown-item" href="gmataustralia.html">AUSTRALIA</a>
+                <a class="dropdown-item" href="gmatcanada.html">CANADA</a>
+                <a class="dropdown-item" href="gmatgermany.html">GERMANY</a>
+                <a class="dropdown-item" href="gmatfrance.html">FRANCE</a>
+                <a class="dropdown-item" href="gmatNZ.html">NEW ZEALAND</a>
+                
+              </div>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                IELTS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="ieltsuk.html">UK</a>
+                <a class="dropdown-item" href="ieltsusa.html">USA</a>
+                <a class="dropdown-item" href="ieltsaus.html">AUSTRALIA</a>
+                <a class="dropdown-item" href="ieltscanada.html">CANADA</a>
+                <a class="dropdown-item" href="ieltsnz.html">NEW ZEALAND</a>
+              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">My Profile</a>
+            </li>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation -->
+    <div class="container main-content">
+      <div class="row">
+        <div class="col">
+          <div class="card card-noborder">
+            <div class="card-body text-center">
+              <h2 class="" style="color:#FFCC32;">81</h2>
+              <h6 class="text-secondary">Shortlisted Universities</h5>  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-noborder">
+            <div class="card-body text-center">
+              <h2 class="" style="color: #4285F4;">7</h2>
+              <h6 class="text-secondary">Applied Universities</h5>  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-noborder">
+            <div class="card-body text-center">
+              <h2 class="" style="color:#B366F6;">1</h2>
+              <h6 class="text-secondary">Admits Received</h5>  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-noborder">
+            <div class="card-body text-center">
+              <h2 class="" style="color:#E37400;">11</h2>
+              <h6 class="text-secondary">Documents Uploaded</h5>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- shortlisted university -->
+      <div class="row">
+        <div class="col">
+          <div class="mt-5 ">
+          <div class="float-left">
+          <h3>Universities Accepting GMAT in the USA</h3>
+          <hr class="custom-hr" align="left" width="20%">
+          </div>
+          
+          </div>
+          <div class="col-15" id="search-result"> 
+            <div class="table-responsive">
+              <table class="table text-secondary table-striped table-condensed">
+                <thead class="" style="background-color: #f6f8f8;">
+                  <tr>
+                    
+                    <th scope="col">University</th>
+                    
+                    <th scope="col">Fees </th>
+                    <th scope="col">Avg GMAT Score</th>
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    
+                    <td scope="row">Standford University</td>                   
+                    <td>64L</td>
+                    <td>737</td>
+                    
+                  </tr>
+                  <tr>
+                    
+                    
+                    <td>Northwestern University</td>
+                    <td>97L</td>
+                    <td>737</td>
+                    
+                  </tr>
+                  <tr>
+                    
+                    
+                    <td>Yale University</td>
+                    <td>65L</td>
+                    <td>730</td>
+                    
+                  </tr>
+                  <tr>
+                    
+                    
+                    <td>University of Chicago</td>
+                    <td>64L</td>
+                    <td>730</td>
+                    
+                  </tr>
+                  <tr>
+                    
+                    
+                    <td>University of Pennsylvania</td>
+                    <td>70L</td>
+                    <td>730</td>
+                   
+                  </tr>
+                  <tr>
+                   
+                    
+                    <td>Harvard University</td>
+                    <td>60L</td>
+                    <td>729</td>
+                   
+                  </tr>
+                  <tr>
+                    
+                    
+                    <td>Columbia University</td>
+                    <td>58L</td>
+                    <td>724</td>
+                   
+                  </tr>
+                  <tr>
+                    
+                    
+                    <td>Dartmouth University</td>
+                    <td>64L</td>
+                    <td>722</td>
+                    
+                  </tr>
+                  <tr>
+                    
+                    
+                    <td>MIT</td>
+                    <td>66L</td>
+                    <td>722</td>
+                    
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-end">
+                <li class="page-item disabled">
+                  
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- shortlisted university -->
+     
+     
+      <!-- Documents -->
+      <!-- Articles -->
+      
+</div>
+        </div>
+      </div>
+      <!-- Articles -->
+    </div>
+
+
+
+    <!-- footer -->
+    <footer>
+      <div class="mt-5 pt-5 pb-3 footer">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="col">
+              
+            </div>
+          </div>
+          <hr />
+          <div class="row mt-5 mb-5">
+            <div class="col-lg-4 col-xs-12 about-company">
+              <h5 class="mb-4">About Us</h5>
+              <p class="pr-5">
+                UniPick is a web application which helps you to search for
+                specific program for masters in top universities.
+              </p>
+            </div>
+            
+            <div class="col-lg-3 col-xs-12">
+              
+
+
+              <p><a href="https://instagram.com/_.sethuu?igshid=MjEwN2IyYWYwYw=="><i class="fab fa-instagram"></i> _sethuu</p></a>
+              
+              <p><a href="https://www.linkedin.com/in/sethu-namachivayam-b83315203"><i class="fab fa-linkedin"></i> Sethu Namachivayam</p></a>  
+              
+              <p><a href="sethu10r@gmail.com"></a><i class="fa fa-envelope-o mr-3"></i>sethu10r@gmail.com</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
